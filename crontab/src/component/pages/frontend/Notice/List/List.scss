@@ -1,0 +1,35 @@
+.List{
+    width: 100%;
+    .d_btn{
+        display: inline-block;
+        width: 50px;
+        height: 30px;
+        margin-right: 5px;
+        color:#fff;
+        border-radius: 8px;
+        text-align: center;
+        line-height: 30px;
+    }
+    &-btnArea{
+        display: flex;
+        height: 60px;
+        padding:20px 0 10px 20px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: flex-start;
+        &__btn{
+            background-color: #337ab7;
+            width: 80px;
+            margin-right: 10px;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            color:#fff;
+            border-radius: 8px;
+        }
+    }
+    &-area{
+        width: 100%;
+        margin-top: 10px;
+    }
+}

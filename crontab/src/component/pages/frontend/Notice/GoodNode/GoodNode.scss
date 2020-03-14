@@ -1,0 +1,32 @@
+.GoodNode{
+    width: 100%;
+    height: 300px;
+    &-btnArea{
+        display: flex;
+        height: 60px;
+        padding:20px 0 10px 20px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+        &__font{
+            font-size: 26px;
+            color:#000;
+            font-weight: bold;
+            position: absolute;
+            left: 50%;
+            top:50%;
+            transform: translate(-52%,-50%);
+        }
+        &__btn{
+            background-color: #337ab7;
+            width: 80px;
+            margin-right: 10px;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            color:#fff;
+            border-radius: 8px;
+        }
+    }
+}
